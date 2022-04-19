@@ -377,7 +377,7 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>hotcue_1_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
@@ -387,7 +387,7 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>hotcue_2_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
@@ -397,7 +397,7 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>hotcue_3_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
@@ -407,7 +407,7 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>hotcue_4_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
@@ -417,7 +417,7 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>hotcue_5_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
@@ -427,7 +427,7 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>hotcue_6_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
@@ -437,7 +437,7 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>hotcue_7_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
@@ -447,7 +447,7 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
+                <group>[Channel1]</group>
                 <key>hotcue_8_activate</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
@@ -457,8 +457,8 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
-                <key>cue_set</key>
+                <group>[Channel1]</group>
+                <key>sync_key</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
                 <midino>0x38</midino>
@@ -467,8 +467,8 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
-                <key>cue_preview</key>
+                <group>[Channel1]</group>
+                <key>reset_key</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
                 <midino>0x39</midino>
@@ -477,11 +477,141 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
-                <key>play_stutter</key>
+                <group>[Channel1]</group>
+                <key>bpm_down_small</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0x90</status>
                 <midino>0x3A</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel1]</group>
+                <key>bpm_up_small</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x3B</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_1_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x3C</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_2_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x3D</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_3_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x3E</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_4_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x3F</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_5_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x40</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_6_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x41</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_7_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x42</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>hotcue_8_activate</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x43</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>sync_key</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x44</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>reset_key</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x45</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>bpm_down_small</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x46</midino>
+                <options>
+                    <normal/>
+                </options>
+            </control>
+            <control>
+                <group>[Channel2]</group>
+                <key>bpm_up_small</key>
+                <description>MIDI Learned from 2 messages.</description>
+                <status>0x90</status>
+                <midino>0x47</midino>
                 <options>
                     <normal/>
                 </options>
@@ -530,7 +660,7 @@
                 <group>[Channel1]</group>
                 <key>play</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0xB0</status>
+                <status>0xBF</status>
                 <midino>0x68</midino>
                 <options>
                     <normal/>
@@ -538,7 +668,7 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>rate_temp_up</key>
+                <key>play</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0xBF</status>
                 <midino>0x68</midino>
@@ -557,8 +687,8 @@
                 </options>
             </control>
             <control>
-                <group>[Channel2]</group>
-                <key>rate_temp_down</key>
+                <group>[Channel1]</group>
+                <key>reverseroll</key>
                 <description>MIDI Learned from 2 messages.</description>
                 <status>0xBF</status>
                 <midino>0x69</midino>
@@ -568,10 +698,10 @@
             </control>
             <control>
                 <group>[Channel2]</group>
-                <key>play</key>
+                <key>reverseroll</key>
                 <description>MIDI Learned from 2 messages.</description>
-                <status>0xB0</status>
-                <midino>0x6A</midino>
+                <status>0xBF</status>
+                <midino>0x69</midino>
                 <options>
                     <normal/>
                 </options>
